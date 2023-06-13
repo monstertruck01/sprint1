@@ -1,0 +1,519 @@
+/*Styles go here */
+body{
+ font-family: Arial, Helvetica, sans-serif !important;
+    background: #8000801f;
+}
+/* colors */
+.red_text{
+  color: #de0311 !important;
+}
+.container_fluid{
+  width: 100% !important;
+  float: left;
+}
+.red_bg{
+    background:  #de0311 !important;
+}
+.text_white{
+  color: white !important;
+}
+.purple_txt{
+  color: #5e056e !important;
+}
+.purple_bg{
+  background:  #5e056e !important;
+}
+.green_bg{
+      background-color: #1ecd1e !important;
+}
+.race_btn{
+  background: #560E64 !important;
+      color: white !important;
+      font-weight: bold !important;
+      font-size: 30px !important;
+      text-decoration: none;
+      border-radius: 10px !important;
+      padding: 10px !important;
+}
+.main_tit{
+  color: #560E64;
+}
+  .race_row {
+      border: solid 1px gray;
+      padding: 10px;
+      margin-bottom: 20px;
+}
+.race_row_logo img{
+    max-width: 90%;
+}
+.img_fluid{
+  width: 100%;
+  height: auto;
+}
+/* colors */
+
+/* menu*/
+.topnav {
+  overflow: hidden;
+  text-align: right;
+  margin-top: 22px;
+}
+
+.topnav a {
+  display: inline;
+      color: #0c0c0c;
+      text-align: center;
+      padding: 14px 2px 10px 14px;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 700;
+}
+
+.topnav a:hover {
+
+  color: purple;
+}
+
+.topnav a.active {
+    color: purple;
+}
+
+.topnav .icon {
+  display: none;
+}
+.inner_top_bav a{
+
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.inner_top_bav span{
+
+    margin-left: 15px;
+}
+
+
+/* end menu */
+/* body grid */
+.container_fluid{
+
+}
+.container{
+  width: 90%;
+      margin: 0px auto;
+}
+.full_row{
+  width: 100%;
+  float: left;
+      display: block;
+}
+img{
+  max-width: 100%;
+}
+.half_row{
+  width: 50%;
+  float: left;
+      display: block;
+}
+.a_third_row{
+  width: 33.3%;
+  float: left;
+      display: block;
+}
+.a_quarter_row{
+  width: 25%;
+  float: left;
+      display: block;
+}
+.a_3quarter_row{
+  width: 75%;
+  float: left;
+      display: block;
+}
+.a_3quarter_row_right{
+  width: 75%;
+  float: right;
+      display: block;
+}
+.a_fifth_row{
+  width: 20%;
+  float: left;
+      display: block;
+}
+.section_padding{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.text_right{
+  text-align: right;
+}
+.text_center{
+  text-align: center;
+}
+.select_input, .form_input{
+  max-width: 90%;
+    display: inline-block;
+    width: 100%;
+      height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+.form_input{
+    height: 37px !important;
+}
+.btn_input {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* end body gris */
+/*home banner */
+.banner_section {
+
+  min-height: 14rem;
+      padding: 7rem 3rem 2rem;
+      background: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.65)),url(img/lego-2539844_1920.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+      margin-bottom: 30px;
+      height: 300px;
+}
+.banner_section button{
+  background: red;
+      color: white;
+      font-weight: bold;
+      border-radius: 0px;
+      width: 100%;
+      height: 50px;
+      font-size: 24px;
+}
+.all_races{
+      background-color: #000000;
+      float: left;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+}
+.btn_full{
+    color: #d11ad1;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.browse_more{
+    background: #de0311;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+  padding: 15px 2px;
+      color: white;
+      display: block;
+      float: left;
+      width: 100%;
+      padding-top: 29px;
+      padding-right: 7px;
+          font-size: 12px;
+  }
+
+footer ul li{
+  display: inline !important;
+
+}
+footer ul li a{
+  color: white !important;
+  margin-right: 10px;
+
+  text-decoration: none !important;
+}
+footer ul li a:hover {
+        text-decoration: gray;
+}
+
+main{
+  float: left;
+  display: block;
+  width: 100%;
+}
+/*homebanner */
+.race_btn_a {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 26px !important;
+    text-decoration: none;
+    border-radius: 10px !important;
+    padding: 10px !important;
+}
+.race_btn_a:hover{
+  background: #2d0734 !important;
+}
+.nav_brand{
+color: #fff !important;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 29px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    border: solid;
+    text-align: center;
+    background: purple;
+    text-transform: uppercase;
+}
+
+
+.banner_section_cta{
+
+  padding-bottom: 40px;
+}
+.nav_brand_div{
+
+}
+footer ul{
+    margin-top: 0px !important;
+}
+.full_input{
+  width: 100%;
+  max-width: 100%;
+}
+/* register form */
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] ,input[type=email],select{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+/* Bordered form */
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* end register form */
+
+
+.nav_brand a{
+  text-decoration: none !important;
+}
+
+table{
+  width: 100%;
+
+}
+
+.aletr{
+  background: green;
+  color:white !important;
+  padding: 10px;
+  text-align: center;
+}
+
+.alert{
+  background: red;
+  color:white !important;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav_brand a{
+  color: white !important;
+}
+
+/*RESPONSIVESS */
+/*TABLET */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .container {
+    width: 100% !important;
+}
+.race_btn_a {
+      font-size: 20px !important;
+
+  }
+
+}
+
+/*END TABLET*/
+
+/* MOBILE PHONE RESPONSIVESS */
+@media screen and (max-width: 767px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .full_row,  .half_row,  .a_third_row, .a_quarter_row,  .a_3quarter_row,
+  .a_3quarter_row_right,  .a_fifth_row,.container{
+  width: 100% !important;
+  }
+  .banner_section {
+    padding: 5rem 3rem 1rem;
+      height: 600px;
+}
+.race_btn_a {
+  font-size: 17px !important;
+      display: block;
+      margin-top: 10px;
+  }
+  .select_input, .form_input {
+    max-width: 100%;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .race_btn {
+    font-size: 22px !important;
+  }
+}
+
+
+/* END MEDIA QUERY FOR MOBILE PHONES*/
+
+/*search buton *
